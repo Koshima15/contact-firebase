@@ -84,7 +84,7 @@ const App = () => {
       </div>
       
       <AddAndUpdateContact isOpen={isOpen} onClose={onClose} />
-      <ToastContainer position='bottom-center'/>
+      <ToastContainer position='bottom-center' style={{ zIndex: 99999 }}/>
     </>
 
   )
