@@ -5,9 +5,10 @@ import { AiFillPlusCircle } from "react-icons/ai";
 import { collection, getDocs, onSnapshot } from 'firebase/firestore'
 import { db } from './config/firebase';
 import ContactCard from './components/ContactCard';
-import Modal from './components/Modal';
 import AddAndUpdateContact from './components/AddAndUpdateContact';
 import useDisclose from './hooks/useDisclose';
+import 'react-toastify/dist/ReactToastify.css'
+
 
 import { ToastContainer, toast } from 'react-toastify';
 import NotFound from './components/NotFound';
